@@ -1,0 +1,2125 @@
+Microchip MPLAB XC8 Compiler V1.35 ()
+
+Linker command line:
+
+--edf=C:\Program Files (x86)\Microchip\xc8\v1.35\dat\en_msgs.txt -cs \
+  -h+dist/default/production\week6.X.production.sym \
+  --cmf=dist/default/production\week6.X.production.cmf -z -Q16F877A \
+  -oC:\Users\DATPHU~1\AppData\Local\Temp\s8v4.2 \
+  -Mdist/default/production/week6.X.production.map -E1 -ver=XC8 \
+  -ASTACK=0110h-016fh -pstack=STACK -ACODE=00h-07FFhx4 -ASTRCODE=00h-01FFFh \
+  -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 -AENTRY=00h-0FFhx32 \
+  -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0EFh \
+  -ABANK2=0110h-016Fh -ABANK3=0190h-01EFh \
+  -ARAM=020h-06Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh \
+  -AABS1=020h-07Fh,0A0h-0EFh,0110h-016Fh,0190h-01EFh -ASFR0=00h-01Fh \
+  -ASFR1=080h-09Fh -ASFR2=0100h-010Fh -ASFR3=0180h-018Fh \
+  -preset_vec=00h,intentry,init,end_init -ppowerup=CODE -pcinit=CODE \
+  -pfunctab=CODE -ACONFIG=02007h-02007h -pconfig=CONFIG -DCONFIG=2 \
+  -AIDLOC=02000h-02003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/02100h \
+  -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
+  -DENTRY=2 -k C:\Users\DATPHU~1\AppData\Local\Temp\s8v4.obj \
+  dist/default/production\week6.X.production.obj 
+
+Object code version is 3.11
+
+Machine type is 16F877A
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\DATPHU~1\AppData\Local\Temp\s8v4.obj
+                end_init                              0        0        3        0       0
+                config                             2007     2007        1     400E       0
+dist/default/production\week6.X.production.obj
+                cinit                               7E8      7E8       18      FD0       0
+                text38                             1522     1522        D     2A44       0
+                text37                             1585     1585       15     2B0A       0
+                text36                             15F9     15F9       2A     2BF2       0
+                text35                              8E8      8E8       87     11D0       0
+                text34                             159A     159A       15     2B34       0
+                text33                                A        A       2A       14       0
+                text32                             15AF     15AF       23     2B5E       0
+                text31                             16E2     16E2       59     2DC4       0
+                text30                             1697     1697       4B     2D2E       0
+                text29                              EEB      EEB      115     1DD6       0
+                text28                               34       34      178       68       0
+                text27                             14E7     14E7        8     29CE       0
+                text26                             1507     1507        9     2A0E       0
+                text25                             1510     1510        9     2A20       0
+                text24                             1519     1519        9     2A32       0
+                text23                             14EF     14EF        8     29DE       0
+                text22                             14F7     14F7        8     29EE       0
+                text21                             153E     153E       10     2A7C       0
+                text20                             173B     173B       59     2E76       0
+                text19                             154E     154E       11     2A9C       0
+                text18                              807      807       6D     100E       0
+                text17                              9FD      9FD       9B     13FA       0
+                text16                             155F     155F       12     2ABE       0
+                text15                             15D2     15D2       27     2BA4       0
+                text14                             1794     1794       6C     2F28       0
+                text13                              B5A      B5A       D3     16B4       0
+                text12                              96F      96F       8E     12DE       0
+                text11                             165B     165B       3C     2CB6       0
+                text10                             1571     1571       14     2AE2       0
+                text9                               DEE      DEE       FD     1BDC       0
+                text8                              152F     152F        F     2A5E       0
+                text7                              1623     1623       38     2C46       0
+                text6                               A98      A98       C2     1530       0
+                text5                               33E      33E      1BE      67C       0
+                text4                               D06      D06       E8     1A0C       0
+                text3                               4FC      4FC      2EC      9F8       0
+                text2                               C2D      C2D       D9     185A       0
+                text1                               1AC      1AC      192      358       0
+                maintext                            874      874       74     10E8       0
+                cstackBANK0                          20       20       24       20       1
+                cstackCOMMON                         70       70        D       70       1
+                clrtext                            14FF     14FF        8     29FE       0
+                dataBANK0                            56       56        2       20       1
+                bssBANK0                             44       44       12       20       1
+                bssCOMMON                            7D       7D        1       70       1
+                stringtext                         1000     1000      10F       20       0
+                strings                            110F     110F       12     221E       0
+                idataBANK0                            8        8        2       10       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                end_init                              0        0        3         0
+                cinit                               7E8      7E8       18         0
+                text38                             1522     1522        D         0
+                text37                             1585     1585       15         0
+                text36                             15F9     15F9       2A         0
+                text35                              8E8      8E8       87         0
+                text34                             159A     159A       15         0
+                text33                                A        A       2A         0
+                text32                             15AF     15AF       23         0
+                text31                             16E2     16E2       59         0
+                text30                             1697     1697       4B         0
+                text29                              EEB      EEB      115         0
+                text28                               34       34      178         0
+                text27                             14E7     14E7        8         0
+                text26                             1507     1507        9         0
+                text25                             1510     1510        9         0
+                text24                             1519     1519        9         0
+                text23                             14EF     14EF        8         0
+                text22                             14F7     14F7        8         0
+                text21                             153E     153E       10         0
+                text20                             173B     173B       59         0
+                text19                             154E     154E       11         0
+                text18                              807      807       6D         0
+                text17                              9FD      9FD       9B         0
+                text16                             155F     155F       12         0
+                text15                             15D2     15D2       27         0
+                text14                             1794     1794       6C         0
+                text13                              B5A      B5A       D3         0
+                text12                              96F      96F       8E         0
+                text11                             165B     165B       3C         0
+                text10                             1571     1571       14         0
+                text9                               DEE      DEE       FD         0
+                text8                              152F     152F        F         0
+                text7                              1623     1623       38         0
+                text6                               A98      A98       C2         0
+                text5                               33E      33E      1BE         0
+                text4                               D06      D06       E8         0
+                text3                               4FC      4FC      2EC         0
+                text2                               C2D      C2D       D9         0
+                text1                               1AC      1AC      192         0
+                maintext                            874      874       74         0
+                clrtext                            14FF     14FF        8         0
+                idataBANK0                            8        8        2         0
+
+        CLASS   STRCODE        
+                stringtext                         1000     1000      10F         0
+
+        CLASS   STRING         
+                strings                            110F     110F       12         0
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
+
+        CLASS   COMMON         
+                cstackCOMMON                         70       70        D         1
+                bssCOMMON                            7D       7D        1         1
+
+        CLASS   BANK0          
+                cstackBANK0                          20       20       24         1
+                dataBANK0                            56       56        2         1
+                bssBANK0                             44       44       12         1
+
+        CLASS   BANK1          
+
+        CLASS   BANK2          
+
+        CLASS   BANK3          
+
+        CLASS   RAM            
+
+        CLASS   ABS1           
+                abs_s1                               7E       7E        2         1
+
+        CLASS   SFR0           
+
+        CLASS   SFR1           
+
+        CLASS   SFR2           
+
+        CLASS   SFR3           
+
+        CLASS   CONFIG         
+                config                             2007     2007        1         0
+
+        CLASS   IDLOC          
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
+
+                reset_vec                      000000  000003  000003         0       0  CODE        2
+                idataBANK0                     000008  000002  00000A        10       0  CODE        2
+                text33                         00000A  00002A  000034        14       0  CODE        2
+                cstackBANK0                    000020  000038  000058        20       1  BANK0       1
+                text28                         000034  000178  0001AC        68       0  CODE        2
+                cstackCOMMON                   000070  00000E  00007E        70       1  COMMON      1
+                text1                          0001AC  000192  00033E       358       0  CODE        2
+                text5                          00033E  0001BE  0004FC       67C       0  CODE        2
+                text3                          0004FC  0002EC  0007E8       9F8       0  CODE        2
+                cinit                          0007E8  000018  000800       FD0       0  CODE        2
+                text18                         000807  00006D  000874      100E       0  CODE        2
+                maintext                       000874  000074  0008E8      10E8       0  CODE        2
+                text35                         0008E8  000087  00096F      11D0       0  CODE        2
+                text12                         00096F  00008E  0009FD      12DE       0  CODE        2
+                text17                         0009FD  00009B  000A98      13FA       0  CODE        2
+                text6                          000A98  0000C2  000B5A      1530       0  CODE        2
+                text13                         000B5A  0000D3  000C2D      16B4       0  CODE        2
+                text2                          000C2D  0000D9  000D06      185A       0  CODE        2
+                text4                          000D06  0000E8  000DEE      1A0C       0  CODE        2
+                text9                          000DEE  0000FD  000EEB      1BDC       0  CODE        2
+                text29                         000EEB  000115  001000      1DD6       0  CODE        2
+                stringtext                     001000  00010F  00110F        20       0  STRCODE     2
+                strings                        00110F  000012  001121      221E       0  STRING      2
+                text27                         0014E7  000008  0014EF      29CE       0  CODE        2
+                text23                         0014EF  000008  0014F7      29DE       0  CODE        2
+                text22                         0014F7  000008  0014FF      29EE       0  CODE        2
+                clrtext                        0014FF  000008  001507      29FE       0  CODE        2
+                text26                         001507  000009  001510      2A0E       0  CODE        2
+                text25                         001510  000009  001519      2A20       0  CODE        2
+                text24                         001519  000009  001522      2A32       0  CODE        2
+                text38                         001522  00000D  00152F      2A44       0  CODE        2
+                text8                          00152F  00000F  00153E      2A5E       0  CODE        2
+                text21                         00153E  000010  00154E      2A7C       0  CODE        2
+                text19                         00154E  000011  00155F      2A9C       0  CODE        2
+                text16                         00155F  000012  001571      2ABE       0  CODE        2
+                text10                         001571  000014  001585      2AE2       0  CODE        2
+                text37                         001585  000015  00159A      2B0A       0  CODE        2
+                text34                         00159A  000015  0015AF      2B34       0  CODE        2
+                text32                         0015AF  000023  0015D2      2B5E       0  CODE        2
+                text15                         0015D2  000027  0015F9      2BA4       0  CODE        2
+                text36                         0015F9  00002A  001623      2BF2       0  CODE        2
+                text7                          001623  000038  00165B      2C46       0  CODE        2
+                text11                         00165B  00003C  001697      2CB6       0  CODE        2
+                text30                         001697  00004B  0016E2      2D2E       0  CODE        2
+                text31                         0016E2  000059  00173B      2DC4       0  CODE        2
+                text20                         00173B  000059  001794      2E76       0  CODE        2
+                text14                         001794  00006C  001800      2F28       0  CODE        2
+                config                         002007  000001  002008      400E       0  CONFIG      2
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            0058-006F             18           1
+        BANK1            00A0-00EF             50           1
+        BANK2            0110-016F             60           1
+        BANK3            0190-01EF             60           1
+        CODE             0003-0007              5           2
+                         0800-0806              7
+                         1121-14E6            3C6
+                         1800-1FFF            800
+        CONST            0003-0007              5           2
+                         0800-0806              7
+                         1121-14E6            100
+                         1800-1FFF            100
+        EEDATA           2100-21FF            100           2
+        ENTRY            0003-0007              5           2
+                         0800-0806              7
+                         1121-14E6            100
+                         1800-1FFF            100
+        IDLOC            2000-2003              4           2
+        RAM              0058-006F             18           1
+                         00A0-00EF             50
+                         0110-016F             60
+                         0190-01EF             60
+        SFR0             0000-001F             20           1
+        SFR1             0080-009F             20           1
+        SFR2             0100-010F             10           1
+        SFR3             0180-018F             10           1
+        STACK            0110-016F             60           1
+        STRCODE          0003-0007              5           2
+                         0800-0806              7
+                         1121-14E6            3C6
+                         1800-1FFF            800
+        STRING           0003-0007              5           2
+                         0800-0806              7
+                         1121-14E6            100
+                         1800-1FFF            100
+
+                                  Symbol Table
+
+?_ReadADC                            cstackCOMMON 0070
+?___awdiv                            cstackCOMMON 0070
+?___awmod                            cstackCOMMON 0070
+?___ftmul                            cstackBANK0  0020
+?___ftpack                           cstackCOMMON 0070
+?___fttol                            cstackBANK0  0030
+?___lwdiv                            cstackCOMMON 0070
+?___lwtoft                           cstackCOMMON 0078
+DisplayDateOnLCD@pDateArray          cstackCOMMON 007B
+DisplayFirstTimeToLCD@pTimeArray     cstackCOMMON 007B
+DisplayTimeToLCD@pTimeArray          cstackCOMMON 007B
+I2C_Write_Byte@Byte                  cstackCOMMON 0070
+ReadADC@nhietdo                      cstackCOMMON 0072
+Read_Bytes_From_DS1307_RTC@Address   cstackCOMMON 0076
+Read_Bytes_From_DS1307_RTC@NoOfBytes cstackCOMMON 0072
+Read_Bytes_From_DS1307_RTC@i         cstackCOMMON 0077
+Read_Bytes_From_DS1307_RTC@pData     cstackCOMMON 0071
+Set_DS1307_RTC_Date@Date             cstackCOMMON 007C
+Set_DS1307_RTC_Date@Day              cstackCOMMON 007B
+Set_DS1307_RTC_Date@Month            cstackCOMMON 0079
+Set_DS1307_RTC_Date@Year             cstackCOMMON 007A
+Set_DS1307_RTC_Time@Hours            cstackCOMMON 0079
+Set_DS1307_RTC_Time@Mins             cstackCOMMON 007A
+Set_DS1307_RTC_Time@Mode             cstackCOMMON 007C
+Set_DS1307_RTC_Time@Secs             cstackCOMMON 007B
+WriteCommandToLCD@Command            cstackCOMMON 0073
+WriteDataToLCD@LCDChar               cstackCOMMON 0073
+WriteStringToLCD@s                   cstackCOMMON 0074
+WriteTempToLCD@Temp                  cstackCOMMON 0079
+Write_Bytes_To_DS1307_RTC@Address    cstackCOMMON 0075
+Write_Bytes_To_DS1307_RTC@NoOfBytes  cstackCOMMON 0072
+Write_Bytes_To_DS1307_RTC@i          cstackCOMMON 0076
+Write_Bytes_To_DS1307_RTC@pData      cstackCOMMON 0071
+_ACKDT                               (abs)        048D
+_ACKEN                               (abs)        048C
+_ACKSTAT                             (abs)        048E
+_ADCON0bits                          (abs)        001F
+_ADCON1bits                          (abs)        009F
+_ADCinit                             text34       159A
+_ADCvalue                            bssBANK0     0054
+_ADRESH                              (abs)        001E
+_ADRESL                              (abs)        009E
+_CHS0                                (abs)        00FB
+_CHS1                                (abs)        00FC
+_CHS2                                (abs)        00FD
+_ClearLCDScreen                      text8        152F
+_DisplayDateOnLCD                    text29       0EEB
+_DisplayFirstTimeToLCD               text2        0C2D
+_DisplayTimeToLCD                    text28       0034
+_Get_DS1307_RTC_Date                 text18       0807
+_Get_DS1307_RTC_Time                 text17       09FD
+_I2C_ReStart                         text27       14E7
+_I2C_Read_Byte                       text26       1507
+_I2C_Send_ACK                        text25       1510
+_I2C_Send_NACK                       text24       1519
+_I2C_Start                           text23       14EF
+_I2C_Stop                            text22       14F7
+_I2C_Write_Byte                      text21       153E
+_InitI2C                             text38       1522
+_InitLCD                             text35       08E8
+_PEN                                 (abs)        048A
+_PORTB                               (abs)        0006
+_RA1                                 (abs)        0029
+_RA2                                 (abs)        002A
+_RA3                                 (abs)        002B
+_RA4                                 (abs)        002C
+_RB0                                 (abs)        0030
+_RB1                                 (abs)        0031
+_RB4                                 (abs)        0034
+_RB5                                 (abs)        0035
+_RB6                                 (abs)        0036
+_RB7                                 (abs)        0037
+_RCEN                                (abs)        048B
+_RD0                                 (abs)        0040
+_RSEN                                (abs)        0489
+_ReadADC                             text16       155F
+_Read_Bytes_From_DS1307_RTC          text20       173B
+_SEN                                 (abs)        0488
+_SSPADD                              (abs)        0093
+_SSPBUF                              (abs)        0013
+_SSPCON                              (abs)        0014
+_SSPIF                               (abs)        0063
+_SSPSTAT                             (abs)        0094
+_Set_DS1307_RTC_Date                 text4        0D06
+_Set_DS1307_RTC_Time                 text6        0A98
+_TRISA                               (abs)        0085
+_TRISB0                              (abs)        0430
+_TRISB1                              (abs)        0431
+_TRISB4                              (abs)        0434
+_TRISB5                              (abs)        0435
+_TRISB6                              (abs)        0436
+_TRISB7                              (abs)        0437
+_TRISC                               (abs)        0087
+_TRISC3                              (abs)        043B
+_TRISC4                              (abs)        043C
+_TRISD                               (abs)        0088
+_Temp                                bssCOMMON    007D
+_ToggleEpinOfLCD                     text37       1585
+_WriteCommandToLCD                   text36       15F9
+_WriteDataToLCD                      text33       000A
+_WriteStringToLCD                    text32       15AF
+_WriteTempToLCD                      text15       15D2
+_Write_Bytes_To_DS1307_RTC           text7        1623
+__CFG_BOREN$OFF                      (abs)        0000
+__CFG_CP$OFF                         (abs)        0000
+__CFG_CPD$OFF                        (abs)        0000
+__CFG_FOSC$HS                        (abs)        0000
+__CFG_LVP$OFF                        (abs)        0000
+__CFG_PWRTE$OFF                      (abs)        0000
+__CFG_WDTE$OFF                       (abs)        0000
+__CFG_WRT$OFF                        (abs)        0000
+__Habs1                              abs1         0000
+__Hbank0                             bank0        0000
+__Hbank1                             bank1        0000
+__Hbank2                             bank2        0000
+__Hbank3                             bank3        0000
+__HbssBANK0                          bssBANK0     0000
+__HbssCOMMON                         bssCOMMON    0000
+__Hcinit                             cinit        0800
+__Hclrtext                           clrtext      0000
+__Hcode                              code         0000
+__Hcommon                            common       0000
+__Hconfig                            config       2008
+__HcstackBANK0                       cstackBANK0  0000
+__HcstackCOMMON                      cstackCOMMON 0000
+__HdataBANK0                         dataBANK0    0000
+__Heeprom_data                       eeprom_data  0000
+__Hend_init                          end_init     0003
+__Hfunctab                           functab      0000
+__HidataBANK0                        idataBANK0   0000
+__Hidloc                             idloc        0000
+__Hinit                              init         0000
+__Hintentry                          intentry     0000
+__Hmaintext                          maintext     0000
+__Hpowerup                           powerup      0000
+__Hram                               ram          0000
+__Hreset_vec                         reset_vec    0000
+__Hsfr0                              sfr0         0000
+__Hsfr1                              sfr1         0000
+__Hsfr2                              sfr2         0000
+__Hsfr3                              sfr3         0000
+__Hspace_0                           (abs)        2008
+__Hspace_1                           (abs)        007E
+__Hspace_2                           (abs)        0000
+__Hspace_3                           (abs)        0000
+__Hstack                             stack        0000
+__Hstrings                           strings      0000
+__Hstringtext                        stringtext   0000
+__Htext                              text         0000
+__Labs1                              abs1         0000
+__Lbank0                             bank0        0000
+__Lbank1                             bank1        0000
+__Lbank2                             bank2        0000
+__Lbank3                             bank3        0000
+__LbssBANK0                          bssBANK0     0000
+__LbssCOMMON                         bssCOMMON    0000
+__Lcinit                             cinit        07E8
+__Lclrtext                           clrtext      0000
+__Lcode                              code         0000
+__Lcommon                            common       0000
+__Lconfig                            config       2007
+__LcstackBANK0                       cstackBANK0  0000
+__LcstackCOMMON                      cstackCOMMON 0000
+__LdataBANK0                         dataBANK0    0000
+__Leeprom_data                       eeprom_data  0000
+__Lend_init                          end_init     0000
+__Lfunctab                           functab      0000
+__LidataBANK0                        idataBANK0   0000
+__Lidloc                             idloc        0000
+__Linit                              init         0000
+__Lintentry                          intentry     0000
+__Lmaintext                          maintext     0000
+__Lpowerup                           powerup      0000
+__Lram                               ram          0000
+__Lreset_vec                         reset_vec    0000
+__Lsfr0                              sfr0         0000
+__Lsfr1                              sfr1         0000
+__Lsfr2                              sfr2         0000
+__Lsfr3                              sfr3         0000
+__Lspace_0                           (abs)        0000
+__Lspace_1                           (abs)        0000
+__Lspace_2                           (abs)        0000
+__Lspace_3                           (abs)        0000
+__Lstack                             stack        0000
+__Lstrings                           strings      0000
+__Lstringtext                        stringtext   0000
+__Ltext                              text         0000
+__S0                                 (abs)        2008
+__S1                                 (abs)        007E
+__S2                                 (abs)        0000
+__S3                                 (abs)        0000
+___awdiv                             text31       16E2
+___awdiv@counter                     cstackCOMMON 0075
+___awdiv@dividend                    cstackCOMMON 0072
+___awdiv@divisor                     cstackCOMMON 0070
+___awdiv@quotient                    cstackCOMMON 0077
+___awdiv@sign                        cstackCOMMON 0076
+___awmod                             text30       1697
+___awmod@counter                     cstackCOMMON 0075
+___awmod@dividend                    cstackCOMMON 0072
+___awmod@divisor                     cstackCOMMON 0070
+___awmod@sign                        cstackCOMMON 0076
+___bmul                              text19       154E
+___bmul@multiplicand                 cstackCOMMON 0070
+___bmul@multiplier                   cstackCOMMON 0073
+___bmul@product                      cstackCOMMON 0072
+___ftmul                             text13       0B5A
+___ftmul@cntr                        cstackBANK0  002E
+___ftmul@exp                         cstackBANK0  002A
+___ftmul@f1                          cstackBANK0  0020
+___ftmul@f2                          cstackBANK0  0023
+___ftmul@f3_as_product               cstackBANK0  002B
+___ftmul@sign                        cstackBANK0  002F
+___ftpack                            text14       1794
+___ftpack@arg                        cstackCOMMON 0070
+___ftpack@exp                        cstackCOMMON 0073
+___ftpack@sign                       cstackCOMMON 0074
+___fttol                             text12       096F
+___fttol@exp1                        cstackBANK0  003D
+___fttol@f1                          cstackBANK0  0030
+___fttol@lval                        cstackBANK0  0039
+___fttol@sign1                       cstackBANK0  0038
+___int_sp                            stack        0000
+___latbits                           (abs)        0002
+___lwdiv                             text11       165B
+___lwdiv@counter                     cstackCOMMON 0077
+___lwdiv@dividend                    cstackCOMMON 0072
+___lwdiv@divisor                     cstackCOMMON 0070
+___lwdiv@quotient                    cstackCOMMON 0075
+___lwtoft                            text10       1571
+___lwtoft@c                          cstackCOMMON 0078
+___sp                                stack        0000
+__end_of_ADCinit                     text34       15AF
+__end_of_ClearLCDScreen              text8        153E
+__end_of_DisplayDateOnLCD            text29       1000
+__end_of_DisplayFirstTimeToLCD       text2        0D06
+__end_of_DisplayTimeToLCD            text28       01AC
+__end_of_Get_DS1307_RTC_Date         text18       0874
+__end_of_Get_DS1307_RTC_Time         text17       0A98
+__end_of_I2C_ReStart                 text27       14EF
+__end_of_I2C_Read_Byte               text26       1510
+__end_of_I2C_Send_ACK                text25       1519
+__end_of_I2C_Send_NACK               text24       1522
+__end_of_I2C_Start                   text23       14F7
+__end_of_I2C_Stop                    text22       14FF
+__end_of_I2C_Write_Byte              text21       154E
+__end_of_InitI2C                     text38       152F
+__end_of_InitLCD                     text35       096F
+__end_of_ReadADC                     text16       1571
+__end_of_Read_Bytes_From_DS1307_RTC  text20       1794
+__end_of_Set_DS1307_RTC_Date         text4        0DEE
+__end_of_Set_DS1307_RTC_Time         text6        0B5A
+__end_of_ToggleEpinOfLCD             text37       159A
+__end_of_WriteCommandToLCD           text36       1623
+__end_of_WriteDataToLCD              text33       0034
+__end_of_WriteStringToLCD            text32       15D2
+__end_of_WriteTempToLCD              text15       15F9
+__end_of_Write_Bytes_To_DS1307_RTC   text7        165B
+__end_of___awdiv                     text31       173B
+__end_of___awmod                     text30       16E2
+__end_of___bmul                      text19       155F
+__end_of___ftmul                     text13       0C2D
+__end_of___ftpack                    text14       1800
+__end_of___fttol                     text12       09FD
+__end_of___lwdiv                     text11       1697
+__end_of___lwtoft                    text10       1585
+__end_of__initialization             cinit        07FC
+__end_of__stringtab                  strings      1121
+__end_of_displayState1               text9        0EEB
+__end_of_displayState2               text5        04FC
+__end_of_displayState3               text3        07E8
+__end_of_displayState4               text1        033E
+__end_of_main                        maintext     08E8
+__initialization                     cinit        07E8
+__pbssBANK0                          bssBANK0     0044
+__pbssCOMMON                         bssCOMMON    007D
+__pcstackBANK0                       cstackBANK0  0020
+__pcstackCOMMON                      cstackCOMMON 0070
+__pdataBANK0                         dataBANK0    0056
+__pidataBANK0                        idataBANK0   0008
+__pmaintext                          maintext     0874
+__pstrings                           strings      110F
+__pstringtext                        stringtext   1000
+__ptext1                             text1        01AC
+__ptext10                            text10       1571
+__ptext11                            text11       165B
+__ptext12                            text12       096F
+__ptext13                            text13       0B5A
+__ptext14                            text14       1794
+__ptext15                            text15       15D2
+__ptext16                            text16       155F
+__ptext17                            text17       09FD
+__ptext18                            text18       0807
+__ptext19                            text19       154E
+__ptext2                             text2        0C2D
+__ptext20                            text20       173B
+__ptext21                            text21       153E
+__ptext22                            text22       14F7
+__ptext23                            text23       14EF
+__ptext24                            text24       1519
+__ptext25                            text25       1510
+__ptext26                            text26       1507
+__ptext27                            text27       14E7
+__ptext28                            text28       0034
+__ptext29                            text29       0EEB
+__ptext3                             text3        04FC
+__ptext30                            text30       1697
+__ptext31                            text31       16E2
+__ptext32                            text32       15AF
+__ptext33                            text33       000A
+__ptext34                            text34       159A
+__ptext35                            text35       08E8
+__ptext36                            text36       15F9
+__ptext37                            text37       1585
+__ptext38                            text38       1522
+__ptext4                             text4        0D06
+__ptext5                             text5        033E
+__ptext6                             text6        0A98
+__ptext7                             text7        1623
+__ptext8                             text8        152F
+__ptext9                             text9        0DEE
+__size_of_ADCinit                    (abs)        0000
+__size_of_ClearLCDScreen             (abs)        0000
+__size_of_DisplayDateOnLCD           (abs)        0000
+__size_of_DisplayFirstTimeToLCD      (abs)        0000
+__size_of_DisplayTimeToLCD           (abs)        0000
+__size_of_Get_DS1307_RTC_Date        (abs)        0000
+__size_of_Get_DS1307_RTC_Time        (abs)        0000
+__size_of_I2C_ReStart                (abs)        0000
+__size_of_I2C_Read_Byte              (abs)        0000
+__size_of_I2C_Send_ACK               (abs)        0000
+__size_of_I2C_Send_NACK              (abs)        0000
+__size_of_I2C_Start                  (abs)        0000
+__size_of_I2C_Stop                   (abs)        0000
+__size_of_I2C_Write_Byte             (abs)        0000
+__size_of_InitI2C                    (abs)        0000
+__size_of_InitLCD                    (abs)        0000
+__size_of_ReadADC                    (abs)        0000
+__size_of_Read_Bytes_From_DS1307_RTC (abs)        0000
+__size_of_Set_DS1307_RTC_Date        (abs)        0000
+__size_of_Set_DS1307_RTC_Time        (abs)        0000
+__size_of_ToggleEpinOfLCD            (abs)        0000
+__size_of_WriteCommandToLCD          (abs)        0000
+__size_of_WriteDataToLCD             (abs)        0000
+__size_of_WriteStringToLCD           (abs)        0000
+__size_of_WriteTempToLCD             (abs)        0000
+__size_of_Write_Bytes_To_DS1307_RTC  (abs)        0000
+__size_of___awdiv                    (abs)        0000
+__size_of___awmod                    (abs)        0000
+__size_of___bmul                     (abs)        0000
+__size_of___ftmul                    (abs)        0000
+__size_of___ftpack                   (abs)        0000
+__size_of___fttol                    (abs)        0000
+__size_of___lwdiv                    (abs)        0000
+__size_of___lwtoft                   (abs)        0000
+__size_of_displayState1              (abs)        0000
+__size_of_displayState2              (abs)        0000
+__size_of_displayState3              (abs)        0000
+__size_of_displayState4              (abs)        0000
+__size_of_main                       (abs)        0000
+__stringbase                         strings      1121
+__stringtab                          strings      110F
+_displayState1                       text9        0DEE
+_displayState2                       text5        033E
+_displayState3                       text3        04FC
+_displayState4                       text1        01AC
+_f                                   bssBANK0     0044
+_h_alarm                             bssBANK0     0046
+_m_alarm                             bssBANK0     0048
+_main                                maintext     0874
+_pRTCArray                           bssBANK0     0050
+_s_alarm                             bssBANK0     004A
+_state                               dataBANK0    0056
+_switch_state                        bssBANK0     004C
+_voltage                             bssBANK0     004E
+btemp                                (abs)        007E
+clear_ram0                           clrtext      14FF
+displayState2@h                      cstackBANK0  002D
+displayState2@m                      cstackBANK0  002F
+displayState2@s                      cstackBANK0  002B
+displayState3@d                      cstackBANK0  002F
+displayState3@m                      cstackBANK0  0031
+displayState3@w                      cstackBANK0  002D
+displayState3@y                      cstackBANK0  002B
+displayState4@h                      cstackBANK0  0022
+displayState4@m                      cstackBANK0  0024
+displayState4@s                      cstackBANK0  0020
+end_of_initialization                cinit        07FC
+intlevel0                            functab      0000
+intlevel1                            functab      0000
+intlevel2                            functab      0000
+intlevel3                            functab      0000
+intlevel4                            functab      0000
+intlevel5                            functab      0000
+ltemp                                (abs)        007E
+ltemp0                               (abs)        007E
+ltemp1                               (abs)        0082
+ltemp2                               (abs)        0086
+ltemp3                               (abs)        0080
+reset_vec                            reset_vec    0000
+stackhi                              (abs)        0000
+stacklo                              (abs)        0000
+start                                init         0000
+start_initialization                 cinit        07E8
+ttemp                                (abs)        007E
+ttemp0                               (abs)        007E
+ttemp1                               (abs)        0081
+ttemp2                               (abs)        0084
+ttemp3                               (abs)        0087
+ttemp4                               (abs)        007F
+wtemp                                (abs)        007E
+wtemp0                               (abs)        007E
+wtemp1                               (abs)        0080
+wtemp2                               (abs)        0082
+wtemp3                               (abs)        0084
+wtemp4                               (abs)        0086
+wtemp5                               (abs)        0088
+wtemp6                               (abs)        007F
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 25 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels required when called:    5
+ This function calls:
+		_DisplayFirstTimeToLCD
+		_Get_DS1307_RTC_Time
+		_InitI2C
+		_InitLCD
+		_Set_DS1307_RTC_Date
+		_Set_DS1307_RTC_Time
+		_displayState1
+		_displayState2
+		_displayState3
+		_displayState4
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _displayState4 *****************
+ Defined at:
+		line 355 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  m               2    4[BANK0 ] unsigned int 
+  h               2    2[BANK0 ] unsigned int 
+  s               2    0[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       6       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       6       0       0       0
+Total ram usage:        6 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_ClearLCDScreen
+		_DisplayFirstTimeToLCD
+		_Get_DS1307_RTC_Time
+		_WriteCommandToLCD
+		_WriteStringToLCD
+		_WriteTempToLCD
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _DisplayFirstTimeToLCD *****************
+ Defined at:
+		line 201 in file "LCD.c"
+ Parameters:    Size  Location     Type
+  pTimeArray      1    wreg     PTR unsigned char 
+		 -> pRTCArray(4), 
+ Auto vars:     Size  Location     Type
+  pTimeArray      1   11[COMMON] PTR unsigned char 
+		 -> pRTCArray(4), 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ClearLCDScreen
+		_WriteDataToLCD
+		_WriteStringToLCD
+		___awdiv
+		___awmod
+ This function is called by:
+		_main
+		_displayState4
+ This function uses a non-reentrant model
+
+
+ *************** function _displayState3 *****************
+ Defined at:
+		line 215 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  m               2   17[BANK0 ] unsigned int 
+  d               2   15[BANK0 ] unsigned int 
+  w               2   13[BANK0 ] unsigned int 
+  y               2   11[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       8       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0      11       0       0       0
+Total ram usage:       11 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ClearLCDScreen
+		_Get_DS1307_RTC_Date
+		_Set_DS1307_RTC_Date
+		_WriteCommandToLCD
+		_WriteStringToLCD
+		_WriteTempToLCD
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Set_DS1307_RTC_Date *****************
+ Defined at:
+		line 199 in file "DS1307.c"
+ Parameters:    Size  Location     Type
+  Date            1    wreg     unsigned char 
+  Month           1    9[COMMON] unsigned char 
+  Year            1   10[COMMON] unsigned char 
+  Day             1   11[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Date            1   12[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         3       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       8       0       0       0
+      Totals:         4       8       0       0       0
+Total ram usage:       12 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_Write_Bytes_To_DS1307_RTC
+		___awdiv
+		___awmod
+ This function is called by:
+		_main
+		_displayState3
+ This function uses a non-reentrant model
+
+
+ *************** function _displayState2 *****************
+ Defined at:
+		line 122 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  m               2   15[BANK0 ] unsigned int 
+  h               2   13[BANK0 ] unsigned int 
+  s               2   11[BANK0 ] unsigned int 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       6       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0       9       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_ClearLCDScreen
+		_Get_DS1307_RTC_Time
+		_Set_DS1307_RTC_Time
+		_WriteCommandToLCD
+		_WriteStringToLCD
+		_WriteTempToLCD
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _Set_DS1307_RTC_Time *****************
+ Defined at:
+		line 126 in file "DS1307.c"
+ Parameters:    Size  Location     Type
+  Mode            1    wreg     unsigned char 
+  Hours           1    9[COMMON] unsigned char 
+  Mins            1   10[COMMON] unsigned char 
+  Secs            1   11[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Mode            1   12[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         3       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       8       0       0       0
+      Totals:         4       8       0       0       0
+Total ram usage:       12 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_Write_Bytes_To_DS1307_RTC
+		___awdiv
+		___awmod
+ This function is called by:
+		_main
+		_displayState2
+ This function uses a non-reentrant model
+
+
+ *************** function _Write_Bytes_To_DS1307_RTC *****************
+ Defined at:
+		line 62 in file "DS1307.c"
+ Parameters:    Size  Location     Type
+  Address         1    wreg     unsigned char 
+  pData           1    1[COMMON] PTR unsigned char 
+		 -> pRTCArray(4), 
+  NoOfBytes       1    2[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  Address         1    5[COMMON] unsigned char 
+  i               2    6[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         7       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_I2C_Start
+		_I2C_Stop
+		_I2C_Write_Byte
+ This function is called by:
+		_Set_DS1307_RTC_Time
+		_Set_DS1307_RTC_Date
+ This function uses a non-reentrant model
+
+
+ *************** function _ClearLCDScreen *****************
+ Defined at:
+		line 87 in file "LCD.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_WriteCommandToLCD
+ This function is called by:
+		_displayState2
+		_displayState3
+		_displayState4
+		_DisplayFirstTimeToLCD
+ This function uses a non-reentrant model
+
+
+ *************** function _displayState1 *****************
+ Defined at:
+		line 75 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       3       0       0       0
+      Totals:         0       3       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    4
+ This function calls:
+		_ADCinit
+		_DisplayDateOnLCD
+		_DisplayTimeToLCD
+		_Get_DS1307_RTC_Date
+		_Get_DS1307_RTC_Time
+		_ReadADC
+		_WriteCommandToLCD
+		_WriteDataToLCD
+		_WriteStringToLCD
+		_WriteTempToLCD
+		___ftmul
+		___fttol
+		___lwdiv
+		___lwtoft
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwtoft *****************
+ Defined at:
+		line 28 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwtoft.c"
+ Parameters:    Size  Location     Type
+  c               2    8[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  3    8[COMMON] float 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         3       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		___ftpack
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function ___lwdiv *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[COMMON] unsigned int 
+  dividend        2    2[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  quotient        2    5[COMMON] unsigned int 
+  counter         1    7[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] unsigned int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         8       0       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function ___fttol *****************
+ Defined at:
+		line 44 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\fttol.c"
+ Parameters:    Size  Location     Type
+  f1              3   16[BANK0 ] float 
+ Auto vars:     Size  Location     Type
+  lval            4   25[BANK0 ] unsigned long 
+  exp1            1   29[BANK0 ] unsigned char 
+  sign1           1   24[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  4   16[BANK0 ] long 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       4       0       0       0
+      Locals:         0       6       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         0      14       0       0       0
+Total ram usage:       14 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function ___ftmul *****************
+ Defined at:
+		line 62 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftmul.c"
+ Parameters:    Size  Location     Type
+  f1              3    0[BANK0 ] float 
+  f2              3    3[BANK0 ] float 
+ Auto vars:     Size  Location     Type
+  f3_as_produc    3   11[BANK0 ] unsigned um
+  sign            1   15[BANK0 ] unsigned char 
+  cntr            1   14[BANK0 ] unsigned char 
+  exp             1   10[BANK0 ] unsigned char 
+ Return value:  Size  Location     Type
+                  3    0[BANK0 ] float 
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       6       0       0       0
+      Locals:         0       6       0       0       0
+      Temps:          0       4       0       0       0
+      Totals:         0      16       0       0       0
+Total ram usage:       16 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		___ftpack
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function ___ftpack *****************
+ Defined at:
+		line 62 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\float.c"
+ Parameters:    Size  Location     Type
+  arg             3    0[COMMON] unsigned um
+  exp             1    3[COMMON] unsigned char 
+  sign            1    4[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  3    0[COMMON] float 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         5       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          3       0       0       0       0
+      Totals:         8       0       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		___ftmul
+		___lwtoft
+ This function uses a non-reentrant model
+
+
+ *************** function _WriteTempToLCD *****************
+ Defined at:
+		line 195 in file "LCD.c"
+ Parameters:    Size  Location     Type
+  Temp            2    9[COMMON] int 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_WriteDataToLCD
+		___awdiv
+		___awmod
+ This function is called by:
+		_displayState1
+		_displayState2
+		_displayState3
+		_displayState4
+ This function uses a non-reentrant model
+
+
+ *************** function _ReadADC *****************
+ Defined at:
+		line 66 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  nhietdo         2    2[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] unsigned int 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_DS1307_RTC_Time *****************
+ Defined at:
+		line 157 in file "DS1307.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      PTR unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          4       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_Read_Bytes_From_DS1307_RTC
+		___bmul
+ This function is called by:
+		_main
+		_displayState1
+		_displayState2
+		_displayState4
+ This function uses a non-reentrant model
+
+
+ *************** function _Get_DS1307_RTC_Date *****************
+ Defined at:
+		line 220 in file "DS1307.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      PTR unsigned char 
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          4       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_Read_Bytes_From_DS1307_RTC
+		___bmul
+ This function is called by:
+		_displayState1
+		_displayState3
+ This function uses a non-reentrant model
+
+
+ *************** function ___bmul *****************
+ Defined at:
+		line 4 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\Umul8.c"
+ Parameters:    Size  Location     Type
+  multiplier      1    wreg     unsigned char 
+  multiplicand    1    0[COMMON] unsigned char 
+ Auto vars:     Size  Location     Type
+  multiplier      1    3[COMMON] unsigned char 
+  product         1    2[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         1       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         4       0       0       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Get_DS1307_RTC_Time
+		_Get_DS1307_RTC_Date
+ This function uses a non-reentrant model
+
+
+ *************** function _Read_Bytes_From_DS1307_RTC *****************
+ Defined at:
+		line 88 in file "DS1307.c"
+ Parameters:    Size  Location     Type
+  Address         1    wreg     unsigned char 
+  pData           1    1[COMMON] PTR unsigned char 
+		 -> pRTCArray(4), 
+  NoOfBytes       2    2[COMMON] unsigned int 
+ Auto vars:     Size  Location     Type
+  Address         1    6[COMMON] unsigned char 
+  i               2    7[COMMON] unsigned int 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         3       0       0       0       0
+      Locals:         3       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         8       0       0       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_I2C_ReStart
+		_I2C_Read_Byte
+		_I2C_Send_ACK
+		_I2C_Send_NACK
+		_I2C_Start
+		_I2C_Stop
+		_I2C_Write_Byte
+ This function is called by:
+		_Get_DS1307_RTC_Time
+		_Get_DS1307_RTC_Date
+ This function uses a non-reentrant model
+
+
+ *************** function _I2C_Write_Byte *****************
+ Defined at:
+		line 68 in file "I2C.c"
+ Parameters:    Size  Location     Type
+  Byte            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  Byte            1    0[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Write_Bytes_To_DS1307_RTC
+		_Read_Bytes_From_DS1307_RTC
+		_Write_Byte_To_DS1307_RTC
+		_Read_Byte_From_DS1307_RTC
+ This function uses a non-reentrant model
+
+
+ *************** function _I2C_Stop *****************
+ Defined at:
+		line 38 in file "I2C.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Write_Bytes_To_DS1307_RTC
+		_Read_Bytes_From_DS1307_RTC
+		_Write_Byte_To_DS1307_RTC
+		_Read_Byte_From_DS1307_RTC
+ This function uses a non-reentrant model
+
+
+ *************** function _I2C_Start *****************
+ Defined at:
+		line 20 in file "I2C.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Write_Bytes_To_DS1307_RTC
+		_Read_Bytes_From_DS1307_RTC
+		_Write_Byte_To_DS1307_RTC
+		_Read_Byte_From_DS1307_RTC
+ This function uses a non-reentrant model
+
+
+ *************** function _I2C_Send_NACK *****************
+ Defined at:
+		line 58 in file "I2C.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Read_Bytes_From_DS1307_RTC
+		_Read_Byte_From_DS1307_RTC
+ This function uses a non-reentrant model
+
+
+ *************** function _I2C_Send_ACK *****************
+ Defined at:
+		line 48 in file "I2C.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Read_Bytes_From_DS1307_RTC
+ This function uses a non-reentrant model
+
+
+ *************** function _I2C_Read_Byte *****************
+ Defined at:
+		line 79 in file "I2C.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Read_Bytes_From_DS1307_RTC
+		_Read_Byte_From_DS1307_RTC
+ This function uses a non-reentrant model
+
+
+ *************** function _I2C_ReStart *****************
+ Defined at:
+		line 29 in file "I2C.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		None
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Read_Bytes_From_DS1307_RTC
+		_Read_Byte_From_DS1307_RTC
+ This function uses a non-reentrant model
+
+
+ *************** function _DisplayTimeToLCD *****************
+ Defined at:
+		line 93 in file "LCD.c"
+ Parameters:    Size  Location     Type
+  pTimeArray      1    wreg     PTR unsigned char 
+		 -> pRTCArray(4), 
+ Auto vars:     Size  Location     Type
+  pTimeArray      1   11[COMMON] PTR unsigned char 
+		 -> pRTCArray(4), 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_WriteCommandToLCD
+		_WriteDataToLCD
+		_WriteStringToLCD
+		___awdiv
+		___awmod
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function _DisplayDateOnLCD *****************
+ Defined at:
+		line 148 in file "LCD.c"
+ Parameters:    Size  Location     Type
+  pDateArray      1    wreg     PTR unsigned char 
+		 -> pRTCArray(4), 
+ Auto vars:     Size  Location     Type
+  pDateArray      1   11[COMMON] PTR unsigned char 
+		 -> pRTCArray(4), 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_WriteCommandToLCD
+		_WriteDataToLCD
+		_WriteStringToLCD
+		___awdiv
+		___awmod
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function ___awmod *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\awmod.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[COMMON] int 
+  dividend        2    2[COMMON] int 
+ Auto vars:     Size  Location     Type
+  sign            1    6[COMMON] unsigned char 
+  counter         1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         2       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         7       0       0       0       0
+Total ram usage:        7 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Set_DS1307_RTC_Time
+		_Set_DS1307_RTC_Date
+		_DisplayTimeToLCD
+		_DisplayDateOnLCD
+		_WriteTempToLCD
+		_DisplayFirstTimeToLCD
+ This function uses a non-reentrant model
+
+
+ *************** function ___awdiv *****************
+ Defined at:
+		line 6 in file "C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\awdiv.c"
+ Parameters:    Size  Location     Type
+  divisor         2    0[COMMON] int 
+  dividend        2    2[COMMON] int 
+ Auto vars:     Size  Location     Type
+  quotient        2    7[COMMON] int 
+  sign            1    6[COMMON] unsigned char 
+  counter         1    5[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+                  2    0[COMMON] int 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         4       0       0       0       0
+      Locals:         4       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         9       0       0       0       0
+Total ram usage:        9 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_Set_DS1307_RTC_Time
+		_Set_DS1307_RTC_Date
+		_DisplayTimeToLCD
+		_DisplayDateOnLCD
+		_WriteTempToLCD
+		_DisplayFirstTimeToLCD
+ This function uses a non-reentrant model
+
+
+ *************** function _WriteStringToLCD *****************
+ Defined at:
+		line 82 in file "LCD.c"
+ Parameters:    Size  Location     Type
+  s               2    4[COMMON] PTR const unsigned char 
+		 -> STR_50(3), STR_49(3), STR_48(4), STR_47(4), 
+		 -> STR_46(4), STR_45(4), STR_44(4), STR_43(4), 
+		 -> STR_42(4), STR_41(4), STR_40(3), STR_39(3), 
+		 -> STR_38(14), STR_37(16), STR_36(14), STR_35(2), 
+		 -> STR_34(2), STR_33(16), STR_32(4), STR_31(4), 
+		 -> STR_30(4), STR_29(4), STR_28(4), STR_27(4), 
+		 -> STR_26(4), STR_25(4), STR_24(19), STR_23(16), 
+		 -> STR_22(20), STR_21(16), STR_20(4), STR_19(4), 
+		 -> STR_18(4), STR_17(4), STR_16(4), STR_15(4), 
+		 -> STR_14(4), STR_13(4), STR_12(2), STR_11(2), 
+		 -> STR_10(2), STR_9(18), STR_8(18), STR_7(20), 
+		 -> STR_6(20), STR_5(2), STR_4(2), STR_3(15), 
+		 -> STR_2(2), STR_1(7), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, fsr0l, fsr0h, status,2, status,0, btemp+1, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         2       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_WriteDataToLCD
+ This function is called by:
+		_displayState1
+		_displayState2
+		_displayState3
+		_displayState4
+		_DisplayTimeToLCD
+		_DisplayDateOnLCD
+		_DisplayFirstTimeToLCD
+ This function uses a non-reentrant model
+
+
+ *************** function _WriteDataToLCD *****************
+ Defined at:
+		line 22 in file "LCD.c"
+ Parameters:    Size  Location     Type
+  LCDChar         1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  LCDChar         1    3[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_ToggleEpinOfLCD
+ This function is called by:
+		_displayState1
+		_WriteStringToLCD
+		_DisplayTimeToLCD
+		_DisplayDateOnLCD
+		_WriteTempToLCD
+		_DisplayFirstTimeToLCD
+ This function uses a non-reentrant model
+
+
+ *************** function _ADCinit *****************
+ Defined at:
+		line 56 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_displayState1
+ This function uses a non-reentrant model
+
+
+ *************** function _InitLCD *****************
+ Defined at:
+		line 34 in file "LCD.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         2       0       0       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_ToggleEpinOfLCD
+		_WriteCommandToLCD
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _WriteCommandToLCD *****************
+ Defined at:
+		line 10 in file "LCD.c"
+ Parameters:    Size  Location     Type
+  Command         1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  Command         1    3[COMMON] unsigned char 
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg, status,2, status,0, pclath, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         1       0       0       0       0
+      Temps:          2       0       0       0       0
+      Totals:         3       0       0       0       0
+Total ram usage:        3 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_ToggleEpinOfLCD
+ This function is called by:
+		_displayState1
+		_displayState2
+		_displayState3
+		_displayState4
+		_InitLCD
+		_ClearLCDScreen
+		_DisplayTimeToLCD
+		_DisplayDateOnLCD
+ This function uses a non-reentrant model
+
+
+ *************** function _ToggleEpinOfLCD *****************
+ Defined at:
+		line 3 in file "LCD.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          1       0       0       0       0
+      Totals:         1       0       0       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_WriteCommandToLCD
+		_WriteDataToLCD
+		_InitLCD
+ This function uses a non-reentrant model
+
+
+ *************** function _InitI2C *****************
+ Defined at:
+		line 8 in file "I2C.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+		None               void
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMMON   BANK0   BANK1   BANK3   BANK2
+      Params:         0       0       0       0       0
+      Locals:         0       0       0       0       0
+      Temps:          0       0       0       0       0
+      Totals:         0       0       0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\awdiv.c
+		___awdiv       		CODE           	16E2	0000	90
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\awdiv.c estimated size: 90
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwtoft.c
+		___lwtoft      		CODE           	1571	0000	21
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwtoft.c estimated size: 21
+
+I2C.c
+		_I2C_Stop      		CODE           	14F7	0000	9
+		_InitI2C       		CODE           	1522	0000	14
+		_I2C_Write_Byte		CODE           	153E	0000	17
+		_I2C_Read_Byte 		CODE           	1507	0000	10
+		_I2C_Send_ACK  		CODE           	1510	0000	10
+		_I2C_Send_NACK 		CODE           	1519	0000	10
+		_I2C_Start     		CODE           	14EF	0000	9
+		_I2C_ReStart   		CODE           	14E7	0000	9
+
+I2C.c estimated size: 88
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\float.c
+		___ftpack      		CODE           	1794	0000	109
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\float.c estimated size: 109
+
+shared
+		__stringtab    		STRING         	110F	0000	19
+		__initialization		CODE           	07E8	0000	21
+
+shared estimated size: 40
+
+DS1307.c
+		_Write_Bytes_To_DS1307_RTC		CODE           	1623	0000	57
+		_Get_DS1307_RTC_Date		CODE           	0807	0000	110
+		_Read_Bytes_From_DS1307_RTC		CODE           	173B	0000	90
+		_Get_DS1307_RTC_Time		CODE           	09FD	0000	156
+		_Set_DS1307_RTC_Date		CODE           	0D06	0000	233
+		_Set_DS1307_RTC_Time		CODE           	0A98	0000	195
+
+DS1307.c estimated size: 841
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftmul.c
+		___ftmul       		CODE           	0B5A	0000	212
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\ftmul.c estimated size: 212
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\awmod.c
+		___awmod       		CODE           	1697	0000	76
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\awmod.c estimated size: 76
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwdiv.c
+		___lwdiv       		CODE           	165B	0000	61
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\lwdiv.c estimated size: 61
+
+main.c
+		_displayState1 		CODE           	0DEE	0000	254
+		_displayState2 		CODE           	033E	0000	447
+		_displayState3 		CODE           	04FC	0000	749
+		_displayState4 		CODE           	01AC	0000	403
+		_main          		CODE           	0874	0000	117
+		_ReadADC       		CODE           	155F	0000	19
+		_ADCinit       		CODE           	159A	0000	22
+
+main.c estimated size: 2011
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\Umul8.c
+		___bmul        		CODE           	154E	0000	18
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\Umul8.c estimated size: 18
+
+LCD.c
+		_WriteCommandToLCD		CODE           	15F9	0000	43
+		_WriteStringToLCD		CODE           	15AF	0000	36
+		_DisplayDateOnLCD		CODE           	0EEB	0000	278
+		_DisplayTimeToLCD		CODE           	0034	0000	377
+		_InitLCD       		CODE           	08E8	0000	136
+		_WriteDataToLCD		CODE           	000A	0000	43
+		_ToggleEpinOfLCD		CODE           	1585	0000	22
+		_WriteTempToLCD		CODE           	15D2	0000	40
+		_ClearLCDScreen		CODE           	152F	0000	16
+		_DisplayFirstTimeToLCD		CODE           	0C2D	0000	218
+
+LCD.c estimated size: 1209
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\fttol.c
+		___fttol       		CODE           	096F	0000	143
+
+C:\Program Files (x86)\Microchip\xc8\v1.35\sources\common\fttol.c estimated size: 143
+
